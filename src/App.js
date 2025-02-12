@@ -35,7 +35,6 @@ function App() {
   function getWord() {
     const randomIndex = Math.floor(Math.random() * words.length);
     const word = words[randomIndex];
-    console.log(word)
     return word
 
   }
@@ -46,7 +45,6 @@ function App() {
     setGuessLetter([])
     setStatus('start')
     setTopText(message)
-    console.log("start new game")
   }
 
 

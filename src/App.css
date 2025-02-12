@@ -67,20 +67,94 @@ h1 {
 }
 
 .buttons {
-  width: 266px;
+  width: 400px;
   height: 51px;
   margin: 0 auto;
   padding: 50px 0 50px 0;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  /* 5 equal columns */
-  grid-template-rows: repeat(2, auto);
-  /* 2 rows, height based on content */
+  display: flex;
+  flex-wrap: wrap;
 
-  /* Optional: space between grid items */
-  justify-items: center;
 }
 
+
+.buttons span {
+  border: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.word span {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  border-bottom: 2px solid tomato;
+  font-size: 30px;
+  text-align: center;
+}
+
+.lost::before {
+  content: "💀";
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-size: 0.85rem;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.keyboard {
+  padding-top: 50px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.keyboard button {
+  border: 0;
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+
+.keyboard button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5
+}
+
+
+button.correct {
+  background-color: #10A95B;
+}
+
+button.wrong {
+  background-color: #EC5D49;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+footer button {
+  border: 0;
+  padding: 10px 20px 10px 20px;
+  background-color: coral;
+  color: white;
+  border-radius: 10px;
+  font-size: 24px;
+}
 
 
 

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react_asslmbly_game/static/css/main.63d45074.css",
-    "main.js": "/react_asslmbly_game/static/js/main.2df6f331.js",
+    "main.css": "/react_asslmbly_game/static/css/main.4f196aff.css",
+    "main.js": "/react_asslmbly_game/static/js/main.5e9ca740.js",
     "index.html": "/react_asslmbly_game/index.html",
-    "main.63d45074.css.map": "/react_asslmbly_game/static/css/main.63d45074.css.map",
-    "main.2df6f331.js.map": "/react_asslmbly_game/static/js/main.2df6f331.js.map"
+    "main.4f196aff.css.map": "/react_asslmbly_game/static/css/main.4f196aff.css.map",
+    "main.5e9ca740.js.map": "/react_asslmbly_game/static/js/main.5e9ca740.js.map"
   },
   "entrypoints": [
-    "static/css/main.63d45074.css",
-    "static/js/main.2df6f331.js"
+    "static/css/main.4f196aff.css",
+    "static/js/main.5e9ca740.js"
   ]
 }

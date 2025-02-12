@@ -46,12 +46,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 20px;
 }
 
-.status p,
-h1 {
+.status h1 {
   margin: 0;
   padding: 0;
+}
+
+.status p {
+  margin-top: 20px;
+  font-size: 1.2rem;
 }
 
 .success {
@@ -86,16 +91,28 @@ h1 {
   position: relative;
 }
 
+
+.word {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
 .word span {
   height: 50px;
-  width: 50px;
+  width: 55px;
   display: inline-block;
   margin: 5px;
   border-radius: 5px;
   background-color: cadetblue;
-  border-bottom: 2px solid tomato;
+  border-bottom: 2px solid rgb(216, 249, 255);
   font-size: 30px;
   text-align: center;
+  padding-top: 8px
+}
+
+.lost {
+  overflow: hidden;
 }
 
 .lost::before {
@@ -115,17 +132,22 @@ h1 {
 
 .keyboard {
   padding-top: 50px;
-  width: 400px;
+  width: 500px;
   margin: 0 auto;
 }
 
 .keyboard button {
   border: 0;
-  background-color: yellow;
+  background-color: #fafa43;
   color: black;
-  padding: 10px;
+  padding: 10px 15px;
   border-radius: 5px;
   margin: 5px;
+  font-size: 20px;
+}
+
+.keyboard button:hover {
+  background-color: #e9e940;
 }
 
 
@@ -150,10 +172,16 @@ footer {
 footer button {
   border: 0;
   padding: 10px 20px 10px 20px;
-  background-color: coral;
+  background-color: #7a5ea7;
   color: white;
   border-radius: 10px;
   font-size: 24px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+footer button:hover {
+  background-color: #7659a7;
 }
 
 

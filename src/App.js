@@ -10,7 +10,7 @@ import Confetti from 'react-confetti'
 function App() {
 
   const alphabet = "abcdefghijklmnopqrstuvwxyz"
-  const message = "New game"
+  const message = "Guess the word 🧐"
 
   const [bgstatus, setStatus] = useState('start')
   const [topText, setTopText] = useState(message)
@@ -51,7 +51,7 @@ function App() {
 
 
   useEffect(() => {
-    setBottomTopText(`Left ${langs.length - wrongGuessCount} try`)
+    setBottomTopText(`You have ${langs.length - wrongGuessCount} attempts left`)
   }, [wrongGuessCount, langs])
 
 
